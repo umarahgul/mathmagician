@@ -5,17 +5,27 @@ function Calculator(){
 return(<div className="main">
 <Lcd>
 </Lcd>
-<Operations>
+<Container></Container>
 
-</Operations>
-<Numbers>
-
-</Numbers>
 </div>)
 }
 function Lcd(){
     return <div className="lcd"></div>
 }
+
+function Container(){
+return(<div className="container">
+
+<Numbers>
+
+</Numbers>
+<Operations>
+
+</Operations>
+</div>)
+
+}
+
 
 function Operations(){
     return<div className="operations">
@@ -30,6 +40,9 @@ function Operations(){
 function Numbers(){
     return(
   <div className="numbers">
+    <div>AC</div>
+    <div>+/-</div>
+    <div>%</div>
   <div>1</div>
   <div>2</div>
   <div>3</div>
@@ -39,7 +52,7 @@ function Numbers(){
   <div>7</div>
   <div>8</div>
   <div>9</div>
-  <div>0</div>
+  <div id="zero">0</div>
   </div>)
 }
 
