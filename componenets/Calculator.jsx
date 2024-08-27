@@ -1,3 +1,5 @@
+import React from "react";
+
 function Calculator(){
 return<>
 <Lcd>
@@ -25,7 +27,7 @@ function Operations(){
     </div>
 }
 
-function Numbers(){}
+function Numbers(){
   <div className="numbers">
   <div>1</div>
   <div>2</div>
@@ -38,3 +40,6 @@ function Numbers(){}
   <div>9</div>
   <div>0</div>
   </div>
+}
+
+export default Calculator;
