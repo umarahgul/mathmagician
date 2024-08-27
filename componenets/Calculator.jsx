@@ -28,6 +28,7 @@ function Operations(){
 }
 
 function Numbers(){
+    return(
   <div className="numbers">
   <div>1</div>
   <div>2</div>
@@ -39,7 +40,7 @@ function Numbers(){
   <div>8</div>
   <div>9</div>
   <div>0</div>
-  </div>
+  </div>)
 }
 
 export default Calculator;
