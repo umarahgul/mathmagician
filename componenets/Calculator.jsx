@@ -2,9 +2,8 @@ import React from "react";
 import './Calculator.css';
 
 function Calculator(){
-return(<>
+return(<div className="main">
 <Lcd>
-
 </Lcd>
 <Operations>
 
@@ -12,7 +11,7 @@ return(<>
 <Numbers>
 
 </Numbers>
-</>)
+</div>)
 }
 function Lcd(){
     return <div className="lcd"></div>
