@@ -1,0 +1,15 @@
+.main {
+
+    display: flex;
+    width: 40%;
+    height:50%;
+    justify-content:center;
+    align-items: center;
+
+
+}
+
+.lcd {
+   background-color: gray;
+   width:100%;
+}
