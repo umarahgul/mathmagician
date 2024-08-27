@@ -1,7 +1,7 @@
 import React from "react";
 
 function Calculator(){
-return<>
+return(<>
 <Lcd>
 
 </Lcd>
@@ -11,7 +11,7 @@ return<>
 <Numbers>
 
 </Numbers>
-</>
+</>)
 }
 function Lcd(){
     return <div className="lcd"></div>
